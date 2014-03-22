@@ -5,3 +5,7 @@ gem 'sqlite3'
 
 gem 'wkhtmltopdf-binary'
 gem 'wicked_pdf'
+
+gem "raphael-rails", "~> 2.1.2"
+
+gem 'pry'
