@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.3'
-gem 'sqlite3'
 
 gem 'wkhtmltopdf-binary'
 gem 'wicked_pdf'
@@ -9,3 +8,4 @@ gem 'wicked_pdf'
 gem "raphael-rails", "~> 2.1.2"
 
 gem 'pry'
+gem 'pg'
