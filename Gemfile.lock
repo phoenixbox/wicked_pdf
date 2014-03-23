@@ -88,7 +88,6 @@ GEM
     tzinfo (0.3.39)
     wicked_pdf (0.9.10)
       rails
-    wkhtmltopdf-binary (0.9.9.1)
 
 PLATFORMS
   ruby
@@ -100,4 +99,3 @@ DEPENDENCIES
   rails_12factor
   raphael-rails (~> 2.1.2)
   wicked_pdf
-  wkhtmltopdf-binary
