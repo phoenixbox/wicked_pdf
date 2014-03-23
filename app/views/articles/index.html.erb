@@ -6,7 +6,15 @@
   <p><%= article %></p>
 <% end %>
 
-<%= render partial: "project_info" %>
+<div class='project-info'>
+  <%= render :partial => 'articles/project_info.html.erb', :formats => [:html] %>
+</div>
+<div class='system-details'>
+  <%= render :partial => 'articles/system_details.html.erb', :formats => [:html] %>
+</div>
+<div class='design-variables'>
+  <%= render :partial => 'articles/design_variables.html.erb', :formats => [:html] %>
+</div>
 
 <div class='array'></div>
 <div class='svg-container'>
