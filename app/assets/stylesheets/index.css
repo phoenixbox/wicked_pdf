@@ -4,8 +4,8 @@ h1 {
 
 table {
   float: left;
-  table-layout: fixed;
-  font-size: 12px
+  /*table-layout: fixed;*/
+  font-size: 10px
 }
 
 table, td, th {
@@ -13,26 +13,30 @@ table, td, th {
 }
 
 .project-info {
+  /*display: block;*/
   width: 680px;
   height: 200px;
   border: 1px solid black;
 }
 
 .system-details {
+  /*display: block;*/
   width: 680px;
   height: 200px;
   border: 1px solid black;
 }
 
 .design-variables {
+  position: relative;
   width: 680px;
-  height: 300px;
+  height: 715px;
   border: 1px solid black;
 }
 
 .snow-load {
+  margin-top: 80px;
   width: 680px;
-  height: 300px;
+  height: 200px;
   border: 1px solid black;
 }
 

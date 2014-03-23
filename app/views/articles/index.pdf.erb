@@ -16,42 +16,4 @@
   <%= render :partial => 'articles/snow_load.html.erb', :formats => [:html] %>
 </div>
 
-<% @articles.each do |article| %>
-    <p><%= article %></p>
-<% end %>
-
-
-<div class='array'>
-  <%= wicked_pdf_image_tag('solar_tile.png') %>
-</div>
-<svg xmlns="http://www.w3.org/2000/svg" width="300px" height="600px" viewBox="100 100 200 200">
-  <defs>
-  <style type="text/css"><![CDATA[
-   circle {
-   fill: #ffc;
-   stroke: blue;
-   stroke-width: 2;
-   stroke-dasharray: 5 3;
-   }
-   ]]></style>
-  </defs>
-
-  <circle cx="20" cy="20" r="10"/>
-  <circle cx="60" cy="20" r="15"/>
-  <circle cx="20" cy="60" r="10" style="fill: #cfc"/>
-  <circle cx="60" cy="60" r="15" style="stroke-width: 1;
-   stroke-dasharray: none;"/>
-</svg>
-
-
-<svg class='array' width="300px" height="600px" >
-<svg width="400" height="110">
-  <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)">
-</svg>
-
-
-<script type="text/javascript" src="file://#{Rails.root.join('assets','javascripts','circle.js')}"></script>
-<%= javascript_include_tag "http://code.jquery.com/jquery-1.11.0.min.js" %>
-<%= javascript_include_tag "http://code.jquery.com/jquery-migrate-1.2.1.min.js" %>
-<%= javascript_include_tag "assets/javascripts/circle.js" %>
 <%= wicked_pdf_stylesheet_link_tag "index" %>
