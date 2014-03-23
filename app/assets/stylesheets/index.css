@@ -40,6 +40,24 @@ table, td, th {
   border: 1px solid black;
 }
 
+.wind-pressure {
+  width: 680px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.load-combinations {
+  width: 680px;
+  height: 240px;
+  border: 1px solid black;
+}
+
+.spacing {
+  width: 680px;
+  height: 180px;
+  border: 1px solid black;
+}
+
 .array {
   background: url("assets/solar_tile.png");
   height: 200px;
