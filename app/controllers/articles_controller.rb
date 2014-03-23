@@ -8,7 +8,7 @@ class ArticlesController < ApplicationController
 
       format.pdf do
         render  :pdf => "articles-list-report",
-                :header => {:center => "COMPANY NAME"},
+                :header => {:center => "Ecolibrium Solar"},
                 :footer => {:center => "[page] of [topage]"},
                 :show_as_html => params[:debug].present?
       end
