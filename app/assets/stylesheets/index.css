@@ -1,34 +1,32 @@
 div#logo {
-  /*width:400px;
-  height:200px;*/
   top:50px;
   left:50px
 }
-div.personal-details {
-  width: 680px;
-  height: 200px;
-  border: 1px solid black;
+
+h1 {
+  color: red;
 }
 
 table {
   float: left;
 }
-/*
-table.personal-left {
-  float: left;
-}
 
-table.personal-right {
-  float:left;
-}*/
+div.project-info {
+  width: 680px;
+  height: 200px;
+  border: 1px solid black;
+}
 
 div.system-details {
   width: 680px;
   height: 200px;
   border: 1px solid black;
 }
-h1 {
-  color: red;
+
+div.design-variables {
+  width: 680px;
+  height: 300px;
+  border: 1px solid black;
 }
 
 div.array {
@@ -46,8 +44,6 @@ div.svg-container {
 table, td, th {
   border: 1px solid red;
 }
-
-
 
 thead {
   float: left;
