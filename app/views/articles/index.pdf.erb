@@ -19,28 +19,4 @@
 <%= javascript_include_tag "http://code.jquery.com/jquery-migrate-1.2.1.min.js" %>
 <%= javascript_include_tag "assets/javascripts/circle.js" %>
 <%= wicked_pdf_stylesheet_link_tag "index" %>
-
-<%= wicked_pdf_javascript_include_tag do %>
-    // Creates canvas 320 × 200 at 10, 50
-    var paper = Raphael(10, 50, 320, 200);
-    debugger
-    // Creates circle at x = 50, y = 40, with radius 10
-    var circle = paper.circle(50, 40, 10);
-    // Sets the fill attribute of the circle to red (#f00)
-    circle.attr("fill", "#f00");
-
-    // Sets the stroke attribute of the circle to white
-    circle.attr("stroke", "#fff");
-<% end %>
-<%= javascript_tag do %>
-    // Creates canvas 320 × 200 at 10, 50
-    var paper = Raphael(10, 50, 500, 500);
-
-    // Creates circle at x = 50, y = 40, with radius 10
-    var circle = paper.circle(100, 300, 50);
-    // Sets the fill attribute of the circle to red (#f00)
-    circle.attr("fill", "#f00");
-
-    // Sets the stroke attribute of the circle to white
-    circle.attr("stroke", "#fff");
-<% end %>
+<%= wicked_pdf_javascript_src_tag "circle" %>
