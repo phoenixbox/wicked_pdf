@@ -6,11 +6,12 @@ class ArticlesController < ApplicationController
     respond_to do |format|
       format.html
 
-      format.pdf { render pdf: "articles-list-report",
-        header: {center: "COMPANY NAME"},
-        footer: { center: "[page] of [topage]" }
-      }
+      format.pdf do
+        render  :pdf => "articles-list-report",
+                :header => {:center => "COMPANY NAME"},
+                :footer => {:center => "[page] of [topage]"},
+                :show_as_html => params[:debug].present?
+      end
     end
   end
-
 end
