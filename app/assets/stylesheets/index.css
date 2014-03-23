@@ -60,9 +60,8 @@ table, td, th {
 }
 
 .spacing-results {
-  margin-top: 80px;
   width: 680px;
-  height: 220px;
+  height: 160px;
   border: 1px solid black;
 }
 
