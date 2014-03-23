@@ -1,44 +1,9 @@
-div#logo {
-  top:50px;
-  left:50px
-}
-
 h1 {
   color: red;
 }
 
 table {
   float: left;
-}
-
-div.project-info {
-  width: 680px;
-  height: 200px;
-  border: 1px solid black;
-}
-
-div.system-details {
-  width: 680px;
-  height: 200px;
-  border: 1px solid black;
-}
-
-div.design-variables {
-  width: 680px;
-  height: 300px;
-  border: 1px solid black;
-}
-
-div.array {
-  background: url("assets/solar_tile.png");
-  height: 200px;
-  width: 100%;
-}
-
-div.svg-container {
-  height: 200px;
-  width: 100%;
-  background-color: black;
 }
 
 table, td, th {
@@ -62,6 +27,36 @@ tbody {
 tbody td {
   display: block;
   font-size: 10px;
+}
+
+.project-info {
+  width: 680px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.system-details {
+  width: 680px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.design-variables {
+  width: 680px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.array {
+  background: url("assets/solar_tile.png");
+  height: 200px;
+  width: 100%;
+}
+
+.svg-container {
+  height: 200px;
+  width: 100%;
+  background-color: black;
 }
 
 /*svg {
