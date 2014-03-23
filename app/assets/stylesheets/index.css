@@ -52,9 +52,17 @@ table, td, th {
   border: 1px solid black;
 }
 
-.spacing {
+.spacing-calculations {
+  margin-top: 80px;
   width: 680px;
-  height: 180px;
+  height: 220px;
+  border: 1px solid black;
+}
+
+.spacing-results {
+  margin-top: 80px;
+  width: 680px;
+  height: 220px;
   border: 1px solid black;
 }
 
