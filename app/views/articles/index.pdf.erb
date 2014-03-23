@@ -3,7 +3,15 @@
 </div>
 <h1>Engineering Calculations</h1>
 
-<%= render :partial => 'articles/personal_details.html.erb', :formats => [:html] %>
+<div class='personal-details'>
+  <%= render :partial => 'articles/personal_details.html.erb', :formats => [:html] %>
+</div>
+<div class='system-details'>
+  <%= render :partial => 'articles/system_details.html.erb', :formats => [:html] %>
+</div>
+<div class='design-variables'>
+  <%= render :partial => 'articles/design-variables.html.erb', :formats => [:html] %>
+</div>
 
 <% @articles.each do |article| %>
     <p><%= article %></p>
